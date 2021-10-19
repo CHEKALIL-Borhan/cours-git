@@ -1,0 +1,24 @@
+.myImage{
+    width: 70px ; 
+   }    
+   .playstation{
+    width: 100%;
+    height: 80%;
+}   
+.xbox{ 
+    width: 100%;    
+    height: 80%;
+}
+.pc{
+    width: 100%;
+    height: 80%;
+}
+.pc_2{
+width: 205px;
+}
+.couleur{
+    background-color: purple;
+}
+.couleurHead{
+    background-color: purple;
+}

@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="stylesheet" href="/Projet bootstrap/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <title>Hello, world!</title>
+</head>
+
+<body class="couleur">
+
+  <header class="couleurHead">
+    <div class="container" style="background-color:purple;">
+      <div class="row align-items-center" >
+        <div class="col-2" style="background-color:purple;">
+          <img class="myImage" src="/Projet bootstrap/image/logo manette.jpeg">
+        </div>
+        <div class="col-5"> </div>
+        
+        <div class="col-5 row" style="background-color:purple;"> 
+          <div class="col">
+            Acceuil
+          </div>
+          <div class="col">
+            Nos consoles
+          </div>
+          <div class="col">
+            <select class="form-select" aria-label="Default select example">
+              <option selected> Autres...</option>
+              <option value="1">Contact</option>
+              <option value="2">C.G.U</option>
+              <option value="3">C.G.V</option>
+            </select>
+          </div>
+          <div class="col">
+           <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Inscription
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">First name</label>
+            <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustom02" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4">
+            <label for="validationCustomUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+              <span class="input-group-text" id="inputGroupPrepend">@</span>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationCustom03" class="form-label">City</label>
+            <input type="text" class="form-control" id="validationCustom03" required>
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom04" class="form-label">State</label>
+            <select class="form-select" id="validationCustom04" required>
+              <option selected disabled value="">Choose...</option>
+              <option>...</option>
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom05" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="validationCustom05" required>
+            <div class="invalid-feedback">
+              Please provide a valid zip.
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                Agree to terms and conditions
+              </label>
+              <div class="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+          </div>
+
+        </div>
+
+      </div>
+  </header>
+
+  <div class="centre"> 
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/Projet bootstrap/image/setup play.jpeg" class="playstation" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/Projet bootstrap/image/setup xbox.jpeg" class="xbox" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/Projet bootstrap/image/setup pc.jpeg" class="pc" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="bottom">
+
+
+
+
+
+      <div class="card-group">
+        <div class="card">
+          <img src="/Projet bootstrap/image/playstation 5.jpeg" class="playstattion_2" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Playsattion 5</h5>
+            <p class="card-text">
+              Sony avait dévoilé en mars 2020 l'architecture de sa dernière console. Dans les grandes lignes, la PS5 embarque un processeur AMD Ryzen Zen 2, un GPU AMD RDNA 2, 16 Go de RAM GDDR6, un SSD de 825 Go et un lecteur Blu-ray 4K UHD. Elle intègre également un tout nouveau moteur audio 3D.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/Projet bootstrap/image/pc 2.png" class="pc_2" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pc Gamer</h5>
+            <p class="card-text">Le Fugaku 415-PFLOPS peut exécuter des calculs avec une performance théorique maximale de 513 pétaflops (FLoating point Operations Per Second, soit opérations en virgule flottante par seconde) soit 513 quadrillions de calculs mathématiques par seconde.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/Projet bootstrap/image/xbox.jpeg" class="xbox_2" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Xbox X</h5>
+            <p class="card-text">Après l'annonce de la sortie d'une Xbox Series S, Microsoft a finalisé l'annonce de la grande sœur, la Xbox Series X. Comme la Series S, elle sera disponible à partir du 10 novembre 2020. Microsoft a également dévoilé le prix de sa console la plus puissante jamais conçue : 499,99€.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
